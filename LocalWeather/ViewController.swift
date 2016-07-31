@@ -11,7 +11,8 @@ import CoreLocation
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
     
-    let apiKey = "1cc6bfed02e64a766e553fe760462b28"
+    // here input your OpenWeatherMap.org apikey
+    let apiKey = ""
     let locationManager = CLLocationManager()
 
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView?
